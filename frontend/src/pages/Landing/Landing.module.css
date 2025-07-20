@@ -1,0 +1,87 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f9f9f9;
+  font-family: Arial, sans-serif;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: #007bff;
+  color: #dfefff;
+  padding: 0.75rem 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header span {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+
+.panels {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.panel {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  height: 250px;
+  text-align: center;
+}
+
+.panel h2 {
+  margin-bottom: 1rem;
+  color: #007bff;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.createButton {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.createButton:disabled {
+  background-color: #8cbce7;
+  cursor: not-allowed;
+}
+
+.joinButton {
+  background-color: #28a745;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.joinButton:disabled {
+  background-color: #67df83;
+  cursor: not-allowed;
+}
